@@ -34,6 +34,7 @@ class LoginFragment : Fragment(), View.OnClickListener {
     }
 
 
+
     private fun setView(){
         (activity as AppCompatActivity).supportActionBar?.hide()
     }

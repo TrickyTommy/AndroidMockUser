@@ -1,4 +1,4 @@
-package com.example.singleactivity
+package com.example.androidmockuser.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

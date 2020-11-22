@@ -1,4 +1,4 @@
-package com.example.singleactivity
+package com.example.androidmockuser.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import androidx.navigation.Navigation
 import com.example.androidmockuser.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(){
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -22,6 +22,7 @@ class HomeFragment : Fragment() {
 
 
     }
+
 
 
 }

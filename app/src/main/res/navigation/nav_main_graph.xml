@@ -6,7 +6,7 @@
     app:startDestination="@id/mainFragment2">
     <fragment
         android:id="@+id/mainFragment2"
-        android:name="com.example.singleactivity.MainFragment"
+        android:name="com.example.androidmockuser.fragment.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
 </navigation>

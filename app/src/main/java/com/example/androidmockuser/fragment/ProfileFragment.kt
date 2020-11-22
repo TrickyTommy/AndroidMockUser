@@ -1,4 +1,4 @@
-package com.example.singleactivity
+package com.example.androidmockuser.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.androidmockuser.R
 
-class ListFragment : Fragment() {
+
+class ProfileFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -15,8 +16,7 @@ class ListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_list, container, false)
+        return inflater.inflate(R.layout.fragment_profile, container, false)
     }
-
 
 }

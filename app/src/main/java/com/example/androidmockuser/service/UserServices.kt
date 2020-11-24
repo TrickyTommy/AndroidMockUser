@@ -9,6 +9,7 @@ interface UserServices {
     @GET("api")
     fun getAllUser(
         @Query("results")
-        results: Int = 100
+        results: Int = 100,
+        @Query("page") page: Int = 1
     ): Call<UserResponse>
 }

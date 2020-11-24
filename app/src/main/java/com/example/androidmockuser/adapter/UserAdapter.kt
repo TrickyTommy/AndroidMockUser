@@ -10,10 +10,16 @@ import id.kharozim.androidmockuserapi.model.ResponseModel
 
 
 class UserAdapter(private val context: Context) : RecyclerView.Adapter<UserAdapter.ViewHolder>(){
-    private var list = listOf<ResponseModel>()
-    fun setData(data: List<ResponseModel>){
+     var list = mutableListOf<ResponseModel>()
+    fun setData(data: MutableList<ResponseModel>){
         this.list=data
         notifyDataSetChanged()
+    }
+
+    fun addUsers(users: List<ResponseModel>) {
+        val firstIndex = list.lastIndex + 1
+        list.addAll(users)
+        notifyItemRangeInserted(firstIndex, list.lastIndex)
     }
 
 
